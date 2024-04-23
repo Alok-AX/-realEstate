@@ -44,3 +44,12 @@ Nineth: after this while i run its working fine , but while i changed some thing
         env file i just add a code name called MONGO = "" in this quote in addded my URL and i just called this MONGO inside my API folder index.js
 
         these is the safest way to create my database url using my backend no one can see my url an database password name.
+
+
+ 12th : after i created then i just add a code in .gitignore file .env bellow the all code , becuase of .env file will not upload my git . 
+        this is the safe for my database  .      
+
+13th : Create user model  
+
+        In backend API folder i just create a folder called models inside this models i just create a files name called user.model.js.
+        in this file i Created some model for my Username , email and password using  
