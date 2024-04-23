@@ -1,0 +1,46 @@
+Helo
+
+In this project I ahve creted in Realistate full stack Website Using Vite/React js , Node js ,express js, Tailwind CSS, React Icons
+
+First - i create React app  using Vite < becuase Vite is a superfast for instailing react app and other freamwork also .
+
+Second - After finished this app , I installed Npm then i run Go to my folder what i created on react ap using VITE . so i run this site 
+         "Npm run dev", becuase it is DEV mode so .
+
+Third - After i see my run dev is working fine then we can proced our instailing dependencyes like tailwind.css , React-router-dom then i impilmented 
+        react router dom then i Created 2 folder for one is  pages and othere is Components , 
+
+Fourth : after creting this file i add some page file whatever i need to showcase our webpages .
+
+Fifth : After this i created navbar with Header Components files , that i import in my App.jsx files then i will see my nav bar whatever i created 
+         for NAV?/HEADER.
+
+
+Sixth : then after i crated this file i Linked to my git repo and i pushed all my code . 
+
+
+Seventh : While i pushed that after i Created one more folder called api for Backend Options for Full stack
+          Developement. then i created a file name called api filed inside that i just add my backend file index.js.
+          after i installed a express in my root foled where ever i created for one folrder for backend and one folder is frontend end 
+          inside this root folder i just installed my Npm with dependencyes.
+
+Eighth : and in this backend i created but i have t run this backend file in different port 
+         so i just created  some code for that in index.js .   
+
+Nineth: after this while i run its working fine , but while i changed some thing in that index.js for backend that chnages not showing in terminal 
+        so this kind of errer i have to create some code in package.json file for run automatical. 
+        "scripts": {
+                "dev":"nodemon api/index.js",
+                "start":"node api/index.js"
+            },   this two line code make my code easier to view smartly . 
+            
+
+
+10th :  after creating and setup my backend then i will create DATABASE,
+
+11th :  i just use MONOGODB , i login there and create  a database , then i will connect my database to backend ,
+        so i just copy my my database URL then i just create a file name called.env and i install it my rootfolder NPM DOTENV , then after inside 
+
+        env file i just add a code name called MONGO = "" in this quote in addded my URL and i just called this MONGO inside my API folder index.js
+
+        these is the safest way to create my database url using my backend no one can see my url an database password name.
